@@ -1,5 +1,5 @@
 class Solution:
-    def threeEqualParts(self, arr: List[int]) -> List[int]:
+    def threeEqualParts(self, arr):
         cnt1 = sum(arr)
         
         if cnt1==0:
