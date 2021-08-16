@@ -1,2 +1,2 @@
 # CodingPractice_Leetcode
-leetcode codingtest
+leetcode coding practice
