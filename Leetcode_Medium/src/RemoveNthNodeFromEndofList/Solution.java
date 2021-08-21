@@ -15,7 +15,7 @@ public class Solution {
        
        LinkedList<ListNode> list = new LinkedList<>();
        while(head!=null){
-           // System.out.println(head.val);
+           
            list.offer(head);
            head = head.next;
        }
@@ -24,10 +24,10 @@ public class Solution {
        ListNode ret = ln;
        int size = list.size();
        int idx=0;
-       // System.out.println(size);
+       
        for(ListNode l : list){
            if(idx!=size-n){
-               // System.out.println(l.val);
+              
                ln.next=new ListNode(l.val);
                ln=ln.next;
            }
