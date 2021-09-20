@@ -2,7 +2,7 @@ package DistinctSubsequences;
 
 import java.util.HashMap;
 import java.util.Map;
-
+//
 public class Solution {
     public int numDistinct(String s, String t) {
         if(s.equals(t)) return 1;
