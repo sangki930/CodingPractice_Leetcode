@@ -1,7 +1,5 @@
 package SplitLinkedListInParts;
 
-
-
 class ListNode {
       int val;
       ListNode next;
@@ -10,7 +8,7 @@ class ListNode {
       ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  }
  
-
+//
 public class Solution {
     public ListNode[] splitListToParts(ListNode root, int k) {
         ListNode[] res = new ListNode[k];
