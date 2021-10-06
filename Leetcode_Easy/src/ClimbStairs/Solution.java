@@ -1,15 +1,19 @@
 package ClimbStairs;
 
+import java.util.LinkedList;
+import java.util.List;
+
 public class Solution {
-    public int climbStairs(int n) {
-        int steps=0;
-        int n1=0;
-        int n2=1;
-            for(int i=1; i<=n;i++){
-                steps=n1+n2;
-                n1=n2;
-                n2=steps;
-            }
-        return steps;
+    public List<Integer> findDuplicates(int[] nums) {
+        int counter[]=new int[100001];
+        LinkedList<Integer> list = new LinkedList<>();
+        
+        for(int i=0;i<nums.length;i++){
+            if(counter[nums[i]]==0)
+                counter[nums[i]]++;
+            else if(counter[nums[i]]>0)
+                list.offer(nums[i]);
+        }
+        return list;
     }
 }
