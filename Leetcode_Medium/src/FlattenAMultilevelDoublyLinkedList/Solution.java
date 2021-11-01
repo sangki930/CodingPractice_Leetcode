@@ -20,7 +20,7 @@ class Node {
     public Node child;
 };
 
-
+//
 class Solution {
     public Node flatten(Node head) {
         if (head == null) {
