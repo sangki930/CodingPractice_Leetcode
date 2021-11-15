@@ -1,2 +1,2 @@
 # CodingPractice_Leetcode
-leetcode coding practice repo
+leetcode coding practice repository
