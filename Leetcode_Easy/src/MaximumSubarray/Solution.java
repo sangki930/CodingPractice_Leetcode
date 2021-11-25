@@ -1,5 +1,6 @@
 package MaximumSubarray;
 
+// Kadane Algorithm
 public class Solution {
     public int maxSubArray(int[] nums) {
         int n = nums.length;
