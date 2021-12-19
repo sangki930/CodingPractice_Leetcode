@@ -23,7 +23,6 @@ public class Solution {
                 i++;
             }
 		}
-		
 		return decodedStr.toString();
 	}
 
