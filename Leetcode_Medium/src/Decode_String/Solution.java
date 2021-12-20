@@ -1,8 +1,10 @@
 package Decode_String;
 
 public class Solution {
+	
 	public String decodeString(String s) {
 		int i=0;
+		
 		StringBuilder decodedStr = new StringBuilder();
 		while(i<s.length() && s.charAt(i)!=']') {
 			if (Character.isDigit(s.charAt(i))) {
